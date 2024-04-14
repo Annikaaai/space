@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(236, 229, 220);
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -30px;
+}
+.parallax{
+    background-image: url("pics/parallax.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+}
+.text_cosmos{
+    margin-top: -250px;
+    color: white;
+    margin-left: 50%;
+    transition: all 1s;
+}
+.text_cosmos:hover{
+    transform: scale(1.5);
+}
+.main{
+    margin-left: -8px;
+    padding-right: 16px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_for_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soln_sistema:hover > .sputnik{
+    transform: scale(1.2);
+}
+.texnica:hover > .rocket{
+    transform: translate(0px, -10px);
+}
+.zemnie_zvezdi:hover > .star{
+    transform: rotate(360deg);
+}
+.soln_sistema{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(24, 22, 46);
+    box-sizing: border-box;
+    border: rgb(255, 255, 255) 5px solid;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    transition: all 1s;
+}
+.texnica{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(24, 22, 46);
+    box-sizing: border-box;
+    border: rgb(255, 255, 255) 5px solid;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.zemnie_zvezdi{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(24, 22, 46);
+    box-sizing: border-box;
+    border: rgb(255, 255, 255) 5px solid;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.sputnik{
+    background-image: url("pics/sputnik.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    padding-right: 15px;
+    transition: all 1s;
+    padding-bottom: 10px;
+}
+.rocket{
+    background-image: url("pics/rocket.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+.star{
+    background-image: url("pics/star.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+.venus{
+    background-image: url("pics/venus.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 10px;
+}
+.earth{
+    background-image: url("pics/earth.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 10px;
+}
+.jupiter{
+    background-image: url("pics/jupiter.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 10px;
+}
+.spaceship1{
+    width: 300px;
+    height: 300px;
+    background-position: 50%;
+    margin: 10px;
+    transition: all 1s;
+}
+.spaceship2{
+    width: 300px;
+    height: 300px;
+    background-position: -70px;
+    margin: 10px;
+    transition: all 1s;
+}
+.spaceship3{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 10px;
+    transition: all 1s;
+}
+.spaceship1_photo{
+    background-image: url("pics/spaceship1.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-position: 50%;
+    margin-top: -580px;
+    margin-left: 10px;
+    z-index: 0;
+    transition: all 1s;
+}
+.spaceship2_photo{
+    background-image: url("pics/spaceship2.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-position: -70px;
+    margin-top: -580px;
+    margin-left: 10px;
+    z-index: 0;
+    transition: all 1s;
+}
+.spaceship3_photo{
+    background-image: url("pics/spaceship3.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-position: 50%;
+    margin-top: -580px;
+    margin-left: 10px;
+    z-index: 0;
+    transition: all 1s;
+}
+.spacemen1{
+    background-image: url("pics/spaceman1.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 10%;
+    margin: 10px;
+}
+.spacewomen2{
+    background-image: url("pics/spaceman2.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 5%;
+    margin: 10px;
+}
+.spacemen3{
+    background-image: url("pics/spaceman3.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% -5px;
+    margin: 10px;
+}
+.parallax_bottom{
+    background-attachment: fixed;
+    background-image: url("pics/parallax.jpg");
+    background-position: 0px -630px;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-right: 16px;
+}
+.facebook{
+    background-image: url("pics/facebook.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: all 1s;
+}
+.youtube{
+    background-image: url("pics/youtube.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: all 1s;
+}
+.whatsapp{
+    background-image: url("pics/whatsapp.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: all 1s;
+}
+.snapchat{
+    background-image: url("pics/snapchat.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: all 1s;
+}
+.icons{
+    margin-top: -190px;
+}
+.facebook:hover{
+    transform: scale(1.5);
+}
+.whatsapp:hover{
+    transform: scale(1.5);
+}
+.youtube:hover{
+    transform: scale(1.5);
+}
+.snapchat:hover{
+    transform: scale(1.5);
+}
+.text_h2{
+    text-align: center;
+    /*margin-left: -60%;parallax_bottom*/
+}
+.text_h2_1{
+    text-align: center;
+    margin-top: 80px;
+    /*margin-left: -70%;*/
+}
+.about300px{
+    height: 300px;
+}
+.planets_text{
+    opacity: 0%;
+    text-align: center;
+    transform: translate(-100px, -55px);
+    font-size: 20px;
+    transition: all 0.7s;
+}
+.venus:hover + .planets_text1{
+    opacity: 100%;
+    transform: translate(0px, -55px);
+}
+.earth:hover + .planets_text2{
+    opacity: 100%;
+    transform: translate(0px, -55px);
+}
+.jupiter:hover + .planets_text3{
+    opacity: 100%;
+    transform: translate(0px, -55px);
+}
+/*rgba(0,0,0,0.7)*/
+.dark_block{
+    transform: translate(10px, -310px);
+    width: 300px;
+    height: 300px;
+    margin-bottom: -300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 1s;
+    opacity: 0%;
+    color: white;
+    font-size: 30px;
+}
+.dark_block:hover{
+    opacity: 100%;
+}
+.insta{
+    width: 60px;
+    height: 60px;
+    background-image: url("pics/instagram-colourful-icon.png");
+    background-size: cover;
+}
+.insta_text{
+    padding-top: 30px;
+}
+.flag_text{
+    padding-top: 30px;
+}
+.flag{
+    width: 100px;
+    height: 60px;
+    background-image: url("pics/usa.svg");
+    background-size: cover;
+}
+.flag1{
+    width: 100px;
+    height: 60px;
+    background-image: url("pics/russia.png");
+    background-size: cover;
+}
+.dark_block_space{
+    transform: translate(25px, -295px);
+    width: 270px;
+    height: 270px;
+    margin-bottom: -300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 1s;
+    opacity: 0%;
+    color: white;
+    font-size: 30px;
+    z-index: 1;
+}
+.dark_block_space:hover{
+    opacity: 100%;
+}
+/*
+.dark_block_space:hover + .spaceship1_photo{
+    background-size: 270%;
+}
+.dark_block_space:hover + .spaceship2_photo{
+    background-size: 150%;
+}
+.dark_block_space:hover + .spaceship3_photo{
+    background-size: 270%;
+}
+*/
+.dark_block_space_1{
+    border:rgb(236, 229, 220) dashed 2px;
+    width: 220px;
+    height: 220px;
+    z-index: 0;
+    transition: all 1s;
+}
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+@media (max-width: 1000px) {
+    .a_for_media{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .texnica{
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+    }
+    .parallax_bottom{
+        background-attachment: fixed;
+        background-position: 0px -630px;
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+        padding-right: 16px;
+    }
+    .icons{
+        margin-top: -300px;
+    }
+    .zemnie_zvezdi{
+        margin-top: 15px;
+        margin-bottom: 200px;
+        margin-left: 0px;
+    }
+    .soln_sistema{
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .parallax{
+        height: 800px;
+    }
+    .text_cosmos{
+        margin-top: -250px;
+        color: white;
+        margin-left: 50%;
+        transition: all 1s;
+    }
+    .text_cosmos{
+        margin-top: -550px;
+        color: white;
+        margin-left: 50%;
+        transition: all 1s;
+    }
+    .text_cosmos:hover{
+        transform: scale(1);
+    }
+}
+@media (max-width: 1000px) {
+    .text_cosmos{
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+        transition: all 1s;
+    }
+
+}
